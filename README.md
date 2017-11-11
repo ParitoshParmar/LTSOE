@@ -1,5 +1,5 @@
 # LTSOE 
-Learning to Score Olympic Events (https://arxiv.org/abs/1611.05125)
+[Learning to Score Olympic Events] (https://arxiv.org/abs/1611.05125)
 
 This repository contains the following frameworks, which were used in our paper "Learning to Score Olympic Events":
 1. C3D-SVR
