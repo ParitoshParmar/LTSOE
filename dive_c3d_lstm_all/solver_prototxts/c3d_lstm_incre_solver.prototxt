@@ -1,0 +1,22 @@
+net: "examples/dive_c3d_lstm_all/training_prototxts/c3d_lstm_incre_train_test_1_lstm.prototxt"
+
+test_iter: 14
+test_interval: 100
+
+base_lr: 0.001
+momentum: 0.9
+weight_decay: 0.005
+lr_policy: "step"
+gamma: 0.1
+stepsize: 40000
+# Display every 20 iterations
+display: 20
+# The maximum number of iterations
+max_iter: 3500
+# snapshot intermediate results
+snapshot: 500
+snapshot_prefix: "examples/dive_c3d_lstm_all/dive_big/models_incre/c3d_lstm_dive_big_incre"
+solver_mode: GPU
+random_seed: 750301
+type: "Adam"
+
